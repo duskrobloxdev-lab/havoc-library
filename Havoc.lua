@@ -1,5 +1,4 @@
--- Havoc UI Library | Customized Linoria by Dusk
--- Parte 1/3
+--by dusk
 
 local InputService = game:GetService('UserInputService')
 local TextService = game:GetService('TextService')
@@ -396,11 +395,6 @@ Library:GiveSignal(ScreenGui.DescendantRemoving:Connect(function(Instance)
         Library:RemoveFromRegistry(Instance)
     end
 end))
-
--- FIM DA PARTE 1
--- Continue para Parte 2 (BaseAddons e componentes)
--- Havoc UI Library | Parte 2/3
--- Cole este código DEPOIS da Parte 1
 
 local BaseAddons = {}
 
@@ -2698,11 +2692,6 @@ do
         return Funcs[Key](...)
     end
 end
-
--- FIM DA PARTE 3B
--- Continue para Parte 4 (UI Elements + Window Creation + Final)
--- Havoc UI Library | Parte 4/4 FINAL (UI Elements + Window + Export)
--- Cole este código DEPOIS da Parte 3B
 
 -- < Create other UI elements >
 do
