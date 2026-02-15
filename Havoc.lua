@@ -3664,6 +3664,3 @@ Players.PlayerRemoving:Connect(OnPlayerChange)
 
 getgenv().Library = Library
 return Library
-
--- FIM DO CÓDIGO COMPLETO DA HAVOC LIBRARY
--- Para usar: Cole todas as 4 partes em ordem em um arquivo .lua
